@@ -7,9 +7,11 @@
 2、2种方法对数据进行处理，运用resnet50自动提取波形数据特征：\
 ①对维度为1250的波进行下采样，得到维度为1000的波，直接代入resnet模型进行特征提取，取倒数第一层完全连接的输出作为波形特征\
 ![](https://github.com/zoufengyuan/Waveform-classification/blob/main/wave_1.png)
+![](https://github.com/zoufengyuan/Waveform-classification/blob/main/wave_2.png)
 
 ②观察到波大部分可能是呈周期性的，根据波峰的位置对波进行切割，进行下采样，最后形成维度为(15,60)的数据代入resnet进行特征提取，取倒数第一层完全连接的输出作为波形特征\
-
+![](ttps://github.com/zoufengyuan/Waveform-classification/blob/main/wave_cnn_1.png)
+![](https://github.com/zoufengyuan/Waveform-classification/blob/main/wave_cnn_2.png)
 # 脚本框架：
 ![](https://github.com/zoufengyuan/Waveform-classification/blob/main/%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6%E5%9B%BE.png)
 
