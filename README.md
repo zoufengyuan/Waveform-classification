@@ -11,6 +11,10 @@
 
 # 脚本框架：
 ![](https://github.com/zoufengyuan/Waveform-classification/blob/main/%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6%E5%9B%BE.png)
+model_cnn.py等含cnn标识的脚本为维度为(15,60)的数据代入resnet的脚本，cnn_data_reshape.py是对波进行切割处理的脚本
+
+# 预测结果：
+总体预测准确率为0.75左右，将预测结果输出来看，可能是原始数据的label有些问题
 
 
 
